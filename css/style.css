@@ -1,22 +1,21 @@
 body {
-    background-color: #f5f5f5;
-    font-family: 'Courier New', Courier, monospace;
-    
+  background-color: #f5f5f5;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #nav-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000080;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000080;
+  padding: 10px 20px;
 }
 
 #logo {
-    position: absolute;
-    width: 80px;
-    height: auto;
-    left: 20px;
+  position: absolute;
+  width: 80px;
+  height: auto;
+  left: 20px;
 }
 
 #nav {
@@ -27,26 +26,67 @@ body {
 }
 
 #nav li {
-    margin: 0 1em;
+  margin: 0 1em;
 }
 
 #nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    font-family: "Oswald";
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: "Oswald";
 }
 
 #nav a:hover {
-    font-weight: 1000;
+  font-weight: 1000;
 }
 
 h2 {
-    font-size: 2em;
-    color: #000080;
-    padding-left: 35px;
+  font-size: 2em;
+  color: #000080;
+  margin-left: 1.33em;
 }
 
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 56.25em;
+  margin-left: 2.18em;
+    
+}
+
+h3 {
+  color: #000080;
+  margin-left: 2.35em;
+}
+
+#comp-parts {
+  width: 85em;
+  margin-left: 2.18em;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-bottom: 2em;
+  list-style-position: inside;
+  
+}
+
+#comp-parts li {
+    font-size: 1.2em;
+}
+
+#comp-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 56.25em;
+    margin-left: 2.18em;
+    margin-bottom: 2em;
+}
+
+#comp-img img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
