@@ -40,13 +40,13 @@ body {
   font-weight: 1000;
 }
 
-h2 {
+h2.home {
   font-size: 2em;
   color: #000080;
   margin-left: 1.33em;
 }
 
-p {
+p.home {
   font-size: 1.2em;
   line-height: 1.6;
   margin-bottom: 20px;
@@ -55,7 +55,7 @@ p {
     
 }
 
-h3 {
+h3.home {
   color: #000080;
   margin-left: 2.35em;
 }
@@ -88,5 +88,23 @@ h3 {
     height: auto;
 }
 
+.resume {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.resume ul {
+    list-style-type: square; 
+    margin-left: 1.5em; 
+    padding-left: 0; 
+  }
+  
+  .resume li {
+    margin-bottom: 0.5em; 
+  }
 
 
