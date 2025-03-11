@@ -71,40 +71,55 @@ h3.home {
 }
 
 #comp-parts li {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 #comp-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 56.25em;
-    margin-left: 2.18em;
-    margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 56.25em;
+  margin-left: 2.18em;
+  margin-bottom: 2em;
 }
 
 #comp-img img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .resume {
-    max-width: 800px;
-    margin: 2em auto;
-    padding: 2em;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 10px 14px black;
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 14px black;
 }
   
 .resume ul {
-    list-style-type: square; 
-    margin-left: 1.5em; 
-    padding-left: 0; 
-  }
+  list-style-type: square; 
+  margin-left: 1.5em; 
+  padding-left: 0; 
+}
   
-  .resume li {
-    margin-bottom: 0.5em; 
-  }
+.resume li {
+  margin-bottom: 0.5em; 
+}
 
+.hobbies {
+  border: 1px solid #D97B29;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.hobbies-header {
+  margin: auto;
+  width: 90%;
+  max-width: 800px;
+}
