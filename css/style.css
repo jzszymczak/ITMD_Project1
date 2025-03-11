@@ -123,3 +123,41 @@ h3.home {
   width: 90%;
   max-width: 800px;
 }
+
+.climbing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.climbing-card {
+  border: 1px solid #654321;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.climbing-card-label {
+  font-weight: bold;
+  color: #654321;
+  margin-top: 10px;
+}
+
+.climbing-card video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hobbies-header h2 {
+  color: #FFAB76;
+}
+
+.hobbies img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
