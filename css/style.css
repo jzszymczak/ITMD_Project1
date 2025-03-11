@@ -1,8 +1,3 @@
-body {
-  background-color: #FFE5B4;
-  font-family: 'Courier New', Courier, monospace;
-}
-
 #nav-bar {
   display: flex;
   justify-content: center;
@@ -40,52 +35,52 @@ body {
   font-weight: 1000;
 }
 
-h2.home {
-  font-size: 2em;
+.fixed h2.home {
+  font-size: 32px; 
   color: #FFAB76;
-  margin-left: 1.33em;
+  margin-left: 40px; 
 }
 
-p.home {
-  font-size: 1.2em;
+.fixed p.home {
+  font-size: 20px; 
   line-height: 1.6;
-  margin-bottom: 20px;
-  max-width: 56.25em;
-  margin-left: 2.18em;
-    
+  margin-bottom: 20px; 
+  width: 900px; 
+  margin-left: 40px; 
 }
 
-h3.home {
+.fixed h3.home {
   color: #FFAB76;
-  margin-left: 2.35em;
+  margin-left: 40px; 
 }
 
-#comp-parts {
-  width: 85em;
-  margin-left: 2.18em;
-  margin: 0 auto;
-  padding-left: 0;
-  padding-bottom: 2em;
+.fixed #comp-parts {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 900px;
+  margin-left: 40px;
   list-style-position: inside;
-  
+  padding-left: 100px;
 }
 
-#comp-parts li {
-  font-size: 1.2em;
-}
 
-#comp-img {
+.fixed #comp-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 56.25em;
-  margin-left: 2.18em;
-  margin-bottom: 2em;
+  width: 900px; 
+  margin-left: 40px; 
+  margin-bottom: 40px; 
 }
 
-#comp-img img {
-  max-width: 100%;
+.fixed #comp-img img {
+  width: 500px; 
   height: auto;
+}
+
+body {
+  background-color: #FFE5B4;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .resume {
@@ -116,6 +111,7 @@ h3.home {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  font-weight: bold;
 }
 
 .hobbies-header {
@@ -153,6 +149,11 @@ h3.home {
 
 .hobbies-header h2 {
   color: #FFAB76;
+  font-weight: bold;
+}
+
+.hobbies-header p {
+  font-weight: bold;
 }
 
 .hobbies img {
