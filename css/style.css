@@ -167,3 +167,15 @@ body {
 .hobbies p {
   font-size: 25px;
 }
+
+#hobby_one {
+  background-color: #FFC48C;
+}
+
+#hobby_two {
+  background-color: #B66639;
+}
+
+#hobby_three {
+  background-color: #E89B4F;
+}
