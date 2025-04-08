@@ -150,10 +150,12 @@ body {
 .hobbies-header h2 {
   color: #FFAB76;
   font-weight: bold;
+  font-size: 40px;
 }
 
 .hobbies-header p {
   font-weight: bold;
+  font-size: 25px;
 }
 
 .hobbies img {
@@ -162,3 +164,6 @@ body {
   border-radius: 10px;
 }
 
+.hobbies p {
+  font-size: 25px;
+}
