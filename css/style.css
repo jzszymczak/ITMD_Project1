@@ -180,6 +180,18 @@ body {
   background-color: #E89B4F;
 }
 
+/*Phone media query*/
+@media (min-width: 420px) and (max-width: 599px) {
+  .resume {
+    width: 95%;
+    font-size: 18px;
+    padding: 1.5em;
+    margin: 1em auto;
+    line-height: 1.6;
+    background-color: blue !important;
+  }
+}
+
 /*Tablet media query*/
 @media (min-width: 600px) and (max-width: 1023px) {
   .resume {
@@ -192,14 +204,3 @@ body {
   }
 }
 
-/*Phone media query*/
-@media (min-width: 420px) and (max-width: 599px) {
-  .resume {
-    width: 95%;
-    font-size: 18px;
-    padding: 1.5em;
-    margin: 1em auto;
-    line-height: 1.6;
-    background-color: blue !important;
-  }
-}
