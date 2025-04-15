@@ -205,3 +205,14 @@ body {
   }
 }
 
+#map-title {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Oswald";
+}
+
+#map {
+  height: 400px;
+  width: 50%;
+  margin: 20px auto;
+}

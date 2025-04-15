@@ -19,3 +19,26 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 })
 
+//Google Map API
+function initMap() {
+  const location = { lat:41.83673948259765, lng: -87.62601463238548 };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 12,
+    center: location,
+    mapTypeControl: true,
+    mapTypeControlOptions: {
+      style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+      position: google.maps.ControlPosition.TOP_LEFT,
+      mapTypeIds: [
+        google.maps.MapTypeId.ROADMAP,
+        google.maps.MapTypeId.SATELLITE,
+      ],
+    },  
+  });
+
+  new google.maps.Marker({
+    position: location, 
+    map: map,
+    title: "IIT Campus"
+  });
+}
