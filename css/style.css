@@ -179,3 +179,14 @@ body {
 #hobby_three {
   background-color: #E89B4F;
 }
+
+/*Tablet media query*/
+@media (min-width: 600px) {
+  .resume {
+    width: 100%;
+    margin: 0;
+    padding: 2em;
+    font-size: 20px;
+    box-shadow: none;
+  }
+}
