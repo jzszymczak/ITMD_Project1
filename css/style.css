@@ -188,5 +188,6 @@ body {
     padding: 2em;
     font-size: 20px;
     box-shadow: none;
+    background-color: blue;
   }
 }
