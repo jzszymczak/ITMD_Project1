@@ -188,7 +188,6 @@ body {
     padding: 1.5em;
     margin: 1em auto;
     line-height: 1.6;
-    background-color: blue !important;
   }
 }
 
@@ -200,7 +199,6 @@ body {
     padding: 2em;
     font-size: 20px;
     box-shadow: none;
-    background-color: blue;
   }
 }
 
