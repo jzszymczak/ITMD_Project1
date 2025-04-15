@@ -181,7 +181,7 @@ body {
 }
 
 /*Phone media query*/
-@media (min-width: 420px) and (max-width: 599px) {
+@media (max-width: 599px) {
   .resume {
     width: 95%;
     font-size: 18px;
