@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //Google Map API
 function initMap() {
-  const location = { lat:41.83673948259765, lng: -87.62601463238548 };
+  const location = { lat: 41.83673948259765, lng: -87.62601463238548 };
+  const climbGym = { lat: 41.945534641482034, lng:-87.71038545605438};
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 12,
     center: location,
@@ -40,5 +41,11 @@ function initMap() {
     position: location, 
     map: map,
     title: "IIT Campus"
+  });
+
+  new google.maps.Marker({
+    position: climbGym,
+    map: map,
+    title: "First Ascent"
   });
 }
