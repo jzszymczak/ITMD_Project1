@@ -182,11 +182,6 @@ body {
 
 /*Phone media query*/
 @media (min-width: 420px) and (max-width: 599px) {
-
-  body {
-    background-color: blue !important;
-  }
-
   .resume {
     width: 95%;
     font-size: 18px;
@@ -203,7 +198,7 @@ body {
     margin: 0;
     padding: 2em;
     font-size: 20px;
-    box-shadow: none;
+    line-height: 1.8;
   }
 }
 
