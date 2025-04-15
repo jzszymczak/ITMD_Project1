@@ -190,6 +190,7 @@ body {
     padding: 1em;
     margin: 1em auto;
     line-height: 1.6;
+    box-shadow: none;
   }
 }
 
